@@ -1,5 +1,0 @@
-task hola {
-   doLast {
-      println 'Hola, mundo.'
-   }
-}
