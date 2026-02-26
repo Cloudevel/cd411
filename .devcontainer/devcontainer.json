@@ -1,0 +1,19 @@
+{
+    "name": "cd411 - Introducción a Git",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11",
+    "postCreateCommand": "pip install --quiet jupyterlab bash_kernel && python -m bash_kernel.install",
+    "forwardPorts": [8888],
+    "portsAttributes": {
+        "8888": {
+            "label": "Jupyter Lab",
+            "onAutoForward": "openPreview"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
+}
